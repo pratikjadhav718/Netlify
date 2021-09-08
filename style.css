@@ -1,0 +1,36 @@
+.heading {
+    text-align: center;
+}
+.parent_div_select {
+    display: flex;
+}
+.parent_div_select > div {
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 50px;
+    
+}
+.input_box {
+    height: 300px;
+    width: 400px;
+    /* background-color: aquamarine;
+    border: solid red; */
+    margin-left: 20px;
+    font-size: 24px;
+}
+.main_div {
+    width: 900px;
+    /* background-color: aqua; */
+    margin: auto;
+
+}
+
+.input_div_parant {
+    display: flex;
+    margin-top: 20px;
+}
+.input_div_parant > div{
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
